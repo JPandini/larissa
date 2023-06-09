@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +21,7 @@ main{
     background-color: rgb(211, 159, 168);
     height: 900px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    width: auto;
 }
 
 .text{
@@ -32,6 +34,7 @@ main{
     border-radius: 20px;
     height: auto;
     width: 550px;
+    max-width: 100%;
     display: block;
 }
 
@@ -40,3 +43,12 @@ main{
     text-indent: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+    .text {
+        width: 100%;
+        border-width: 5px;
+    }
+    header{
+        text-align: center;
+    }
+}
