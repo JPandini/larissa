@@ -91,10 +91,7 @@ main{
 
 }
 
-.foto_casal p{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-}
+
 
 .foto_casal img{
     height: 400px;
@@ -102,6 +99,31 @@ main{
     margin: 20px;
     flex-wrap: wrap; 
 }
+
+.paragrafo{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+footer {
+    background-color: rgb(238, 238, 227);
+    padding: 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-container p {
+    font-size: 14px;
+    color: #423f3f;
+}
+
 
 @media only screen and (max-width: 600px) {
     main{
