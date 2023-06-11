@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
 
+
+
+:root{
+    --primary-color:  rgb(211, 159, 168);
+    --main-color: rgb(238, 238, 227);
+}   
 * {
     margin: 0;
     padding: 0;
@@ -14,12 +20,12 @@ header {
     align-items: center;
     justify-content: center;
     padding: 10px;
-    background-color: rgb(238, 238, 227);
+    background-color: var(--main-color);
 }
 
 main{
     padding-top: 30px;
-    background-color: rgb(211, 159, 168);
+    background-color: var(--primary-color);
     height: auto;
     font-family:Georgia, 'Times New Roman', Times, serif;
     width: auto;
