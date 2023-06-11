@@ -6,6 +6,8 @@
 :root{
     --primary-color:  rgb(211, 159, 168);
     --main-color: rgb(238, 238, 227);
+    --white: white;
+    --black: black;
 }   
 * {
     margin: 0;
@@ -36,8 +38,8 @@ main{
     align-items: center;
     justify-content: center;
     margin: auto;
-    background-color: white;
-    border: 10px solid white;
+    background-color: var(--white);
+    border: 10px solid var(--white);
     border-radius: 20px;
     height: auto;
     width: 550px;
@@ -70,8 +72,8 @@ main{
 
 .button {
     display: inline-block;
-    background-color: rgb(255, 255, 255);
-    color: black;
+    background-color: var(--white);
+    color: var(--black);
     text-align: center;
     padding: 12px 24px;
     text-decoration: none;
